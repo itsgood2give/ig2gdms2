@@ -29,8 +29,73 @@ body, #site {
 }
 
 /* naviubf28c corresponds to fixed element in PagesLines DMS */
-.site-branding, #naviubf28c {
+.site-branding, .mm-search, .mm-holder, .section-navi {
     background-color: #C5A47E; /* ipaterso : match ig2g spec */
+}
+
+.section-navi .pl-nav > li.menu-item > a {
+  color: rgb(255,255,255);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+.section-navi .pl-nav > li.current-menu-item > a {
+  color: rgb(136, 22, 39);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* Setting height at 100 means the menu items
+   are orphaned up at the top, which is a bit of a shame
+    Fixed bar at top 
+
+   Added   margin-top:50px;
+   to the menu elements but that throws stuff out
+
+.pl-area-pad .fix {
+  height:100px;
+}
+*/
+
+h1 {
+  color: rgb(149, 193, 31);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+h2 {
+  color: rgb(149, 193, 31);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.highlight-subhead {
+  color: rgb(163, 25, 91);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3 {
+  color: rgb(149, 193, 31);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+h4,h5,h6 {
+  color: rgb(149, 193, 31);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 13px;
+  font-weight: normal;
 }
 
 @font-face
@@ -58,4 +123,194 @@ body, #site {
   src: local('☺'), url('./fonts/lubalingraphitcbybt-demioblique.woff') format('woff'), url('./fonts/lubalingraphitcbybt-demioblique.svg') format('svg');
   font-weight: 600;
   font-style: italic;
+}
+
+
+.ipt_spaced_below {
+  margin-bottom: 18px;
+}
+
+
+.ipt_spaced_above {
+  margin-top: 18px;
+}
+
+.ipt_double_spaced_above {
+  margin-top: 36px;
+}
+
+
+.ipt_redline {
+  background-color: rgb(163, 25, 91);
+  width:100%;
+  height:2px;
+}
+
+#u246-2 {
+  color: rgb(163, 25, 91);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 13px;
+  font-weight: normal;
+  height: 16px;
+  line-height: 16px;
+  margin-left: 18px;
+  margin-top: 15px;
+  text-align: left;
+  width: 315px;
+  word-wrap: break-word;
+}
+
+#u246-4 {
+  color: rgb(163, 25, 91);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 10px;
+  font-weight: normal;
+  height: 12px;
+  line-height: 12px;
+  margin-bottom: 0px;
+  margin-left: 18px;
+  text-align: left;
+  width: 315px;
+  word-wrap: break-word;
+}
+
+.site-info {
+  margin-bottom: 22px;
+}
+
+
+.rTable {
+  display: block;
+  width: 100 % ;
+}
+
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+  clear: both;
+}
+
+
+.rTableCell, .rTableHead {
+  border: 0px;  
+  float: left;     
+  /*height: 140px;  */   
+  overflow: hidden;  
+  padding-top:0px;
+  padding-top:0px;   
+  padding-left: 3%; 
+  padding-right: 0%;    
+  width: 30%; 
+} 
+
+.ipt_decorated_left {
+  border-left: 1px solid rgb(135, 135, 134);    
+}
+
+.rTable:after 
+{     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0; }
+
+
+.tinyTable {
+  display: block;
+  width: 100 % ;
+}
+
+.tinyTableHeading, .tinyTableBody, .tinyTableFoot, .tinyTableRow {
+  clear: both;
+}
+
+.tinyTableCell, .tinyTableHead {
+  border: 0px;   
+  float: left;     
+  /*height: 88px; */    
+  overflow: hidden;     
+  padding-left: 4%;
+  padding-right: 0%;     
+  width: 46%; 
+} 
+
+
+.tinyTable:after 
+{     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0; }
+
+
+.ipt_text_11_135_15 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.ipt_text_11_135_11 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 11px;
+}
+
+.ipt_text_11_135_17 {
+  color: rgb(135, 135, 134);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+.ipt_offset_down {
+  padding-top: 15px;
+}
+
+.ipt_a_135 {
+  color: rgb(135, 135, 134);  
+}
+
+.ipt_inline {
+  display:inline;
+}
+
+.ipt_social_18 {
+  width:18px;
+  height:18px;
+  vertical-align: middle;
+}
+
+.ipt_envelope {
+  width:27px;
+  height:13x;
+  vertical-align: middle;
+}
+
+
+.ipt_semi_opaque {
+  opacity: 0.7;
+}
+
+.site-branding {
+    background-color: #C5A47E; /* ipaterso : match ig2g spec */
+}
+
+
+.ipt_logo
+{
+  margin-left: 17px;
+  margin-top: 4px;
+  margin-bottom: 17px;
+}
+
+.entry-title
+{
+  color: rgb(0, 159, 227);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 22px;
+  font-weight: normal;
+}
+
+
+.entry-content
+{
+  color: rgb(87, 87, 86);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 14px;
+  font-weight: normal;
 }
