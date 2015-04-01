@@ -15,3 +15,47 @@ Template: dms
  * However, you can use this file if you only wish to use CSS.
  * Lines 13-17 can be removed.
  */
+body, #site {
+  background-color: #FFFFFF;
+  margin: 0;
+  font-family: '__ITC Lubalin Graph_5', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust:     100%;
+}
+
+/* footer element - existing, if shown */
+#pl_areaubf44e {
+  background-color: #FFFFFF;
+}
+
+/* naviubf28c corresponds to fixed element in PagesLines DMS */
+.site-branding, #naviubf28c {
+    background-color: #C5A47E; /* ipaterso : match ig2g spec */
+}
+
+@font-face
+{
+  font-family: '__ITC Lubalin Graph_5';
+  src: url('./fonts/lubalingraphitcbybt-demi.eot');
+  src: local('☺'), url('./fonts/lubalingraphitcbybt-demi.woff') format('woff'), url('./fonts/lubalingraphitcbybt-demi.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: '__ITC Lubalin Graph_5';
+  src: url('./fonts/lubalingraphitcbybt-book.eot');
+  src: local('☺'), url('./fonts/lubalingraphitcbybt-book.woff') format('woff'), url('./fonts/lubalingraphitcbybt-book.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: '__ITC Lubalin Graph_5';
+  src: url('./fonts/lubalingraphitcbybt-demioblique.eot');
+  src: local('☺'), url('./fonts/lubalingraphitcbybt-demioblique.woff') format('woff'), url('./fonts/lubalingraphitcbybt-demioblique.svg') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
