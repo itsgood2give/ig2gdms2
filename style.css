@@ -228,7 +228,6 @@ h4,h5,h6 {
   width: 46%; 
 } 
 
-
 .tinyTable:after 
 {     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0; }
 
@@ -314,3 +313,89 @@ h4,h5,h6 {
   font-size: 14px;
   font-weight: normal;
 }
+
+
+.ipt_padded_table_cell {
+  padding-top:0px;
+  padding-top:0px;   
+  padding-left: 3%; 
+  padding-right: 0%; 
+}
+
+.ipt_padded_both {
+  padding-top:0px;
+  padding-top:0px;   
+  padding-right: 3%; 
+  padding-left: 3%; 
+}
+
+.ipt_ruled_above {
+
+}
+
+.ipt_ruled_left {
+  border-left: 1px solid #eee; 
+}
+
+/* http://bootsnipp.com/snippets/featured/no-more-tables-respsonsive-table */
+@media only screen and (max-width: 800px) {
+
+.ipt_ruled_left {
+
+}
+
+.ipt_ruled_above {
+  border-top: 1px solid #eee; 
+}
+
+/* Force table to not be like tables anymore */
+  .no-more-tables table, 
+  .no-more-tables thead, 
+  .no-more-tables tbody, 
+  .no-more-tables th, 
+  .no-more-tables td, 
+  .no-more-tables tr { 
+    display: block; 
+  }
+ 
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .no-more-tables thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+ 
+  .no-more-tables tr { 
+    /*border: 1px solid #ccc; */
+     border: none;
+  }
+ 
+  .no-more-tables td { 
+    /* Behave  like a "row" */
+    border: none;
+    /*border-top: 1px solid #eee; */
+    position: relative;
+    /*padding-left: 50%; */
+    white-space: normal;
+    text-align:left;
+  }
+ 
+  .no-more-tables td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+ 
+  /*
+  Label the data
+  */
+  .no-more-tables td:before { content: attr(data-title); }
+}
+
