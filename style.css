@@ -322,6 +322,13 @@ h4,h5,h6 {
   padding-right: 0%; 
 }
 
+.ipt_padded_table_cell_right {
+  padding-top:0px;
+  padding-top:0px;   
+  padding-right: 3%; 
+  padding-left: 0%; 
+}
+
 .ipt_padded_both {
   padding-top:0px;
   padding-top:0px;   
@@ -398,4 +405,35 @@ h4,h5,h6 {
   */
   .no-more-tables td:before { content: attr(data-title); }
 }
+
+/* In the rev slider */
+
+h2 > .slider-text  > small {
+color: rgb(157, 156, 156);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 31px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+h2 > .slide-title {
+  color: rgb(163, 25, 91);
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 31px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.tp-bannertimer {
+  display:none;
+}
+
+body .pl-mobile-menu {
+  background-color: #C5A47E;
+}
+
 
