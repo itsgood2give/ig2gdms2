@@ -62,7 +62,7 @@ body, #site {
 */
 
 h1 {
-  color: rgb(149, 193, 31);
+  color: rgb(163, 25, 91);
   font-family: '__ITC Lubalin Graph_5';
   font-size: 18px;
   font-weight: normal;
@@ -70,7 +70,7 @@ h1 {
 
 
 h2 {
-  color: rgb(149, 193, 31);
+  color: rgb(0, 159, 227);
   font-family: '__ITC Lubalin Graph_5';
   font-size: 16px;
   font-weight: normal;
@@ -91,11 +91,28 @@ h3 {
 }
 
 
-h4,h5,h6 {
-  color: rgb(149, 193, 31);
+h4 {
   font-family: '__ITC Lubalin Graph_5';
   font-size: 13px;
   font-weight: normal;
+}
+
+h5,h6 {
+  font-family: '__ITC Lubalin Graph_5';
+  font-size: 12px;
+  font-weight: normal;
+}
+
+h4, .ipt_red {
+  color: rgb(163, 25, 91);
+}
+
+h5, .ipt_blue { 
+  color: rgb(0, 159, 227);
+}
+
+h6, .ipt_green {
+  color: rgb(149, 193, 31);
 }
 
 @font-face

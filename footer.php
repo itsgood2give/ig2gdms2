@@ -34,7 +34,7 @@
                    </p>
                 </div>
               </td>
-              <td class="ipt_padded_table_cell_right "> 
+              <td class="ipt_padded_table_cell_right ipt_padded_both"> 
                 <div class="ipt_text_11_135_17">
                   <p>It's Good 2 Give&#8482; raises money to help and support young people with cancer and their families. As our
 name makes clear, we believe that giving should be as easy and as enjoyable as possible.
