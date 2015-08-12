@@ -327,7 +327,7 @@ h6, .ipt_green {
 {
   color: rgb(87, 87, 86);
   font-family: '__ITC Lubalin Graph_5';
-  font-size: 14px;
+  font-size: 12px; /* ipaterso: was 14, now 12 on the BC site */
   font-weight: normal;
 }
 
