@@ -10,7 +10,6 @@
   <div class="site-info">
     
     <div class="content-column one_third ipt_semi_opaque">
-       <img src="<?php bloginfo('stylesheet_directory'); ?>/images/clear.png" alt="" >          
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/tick-logo.jpg" alt="" >          
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/virgin-money-giving-logo.jpg" alt="" >   
     </div>

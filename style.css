@@ -193,6 +193,8 @@ h6, .ipt_green {
 
 .site-info {
   margin-bottom: 22px;
+  margin-left: 44px;
+  margin-right: 44px;
 }
 
 
@@ -436,7 +438,7 @@ color: rgb(157, 156, 156);
 }
 
 h2 > .slide-title {
-  color: rgb(163, 25, 91);
+  color: rgb(255, 255, 255); /* was 163, 25, 91); */
   font-family: '__ITC Lubalin Graph_5';
   font-size: 25px;
   font-weight: normal;
