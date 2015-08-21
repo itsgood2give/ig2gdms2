@@ -38,13 +38,25 @@
 
   <div class="ipt_redline ipt_spaced_above"><!-- simple frame --></div>
 
-  <div >
-     <p id="u246-2">no-one has ever become poor by giving</p>
-     <p id="u246-4">-Anne Frank</p>
+<div class="generic-info">
+
+  <div class="content-column two_third">
+      <p class="ipt-medium-small-red-text">no-one has ever become poor by giving</p>
+      <p class="ipt-small-red-text">-Anne Frank</p>
   </div>
+
+  <div class="content-column one_third last_column">
+    <p class="ipt-medium-small-red-text">&copy; 2015 It's Good 2 Give. 
+      All Rights Reserved, It's Good 2 Give!</p>
+  </div>
+
+</div>
 
 <!-- end of custom footer code -->
  
+
+
+
 <?php
 
 pl_get_core_footer()

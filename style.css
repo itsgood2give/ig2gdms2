@@ -3,8 +3,8 @@ Theme Name: ig2gdms2
 Theme URI: http://www.pagelines.com
 Description: Developed for itsgood2give, based on Skeleton, a basic child theme for PageLines DMS
 Version: 1.0.0
-Author: Danny Holt
-Author URI: https://github.com/Dannyholt/
+Author: ig2g
+Author URI: https://github.com/itsgood2give/
 	
 Template: dms
 
@@ -142,7 +142,6 @@ h6, .ipt_green {
   font-style: italic;
 }
 
-
 .ipt_spaced_below {
   margin-bottom: 18px;
 }
@@ -156,6 +155,17 @@ h6, .ipt_green {
   margin-top: 36px;
 }
 
+.ipt_greyline {
+  background-color: rgb(128,128,128);
+  width:100%;
+  height:2px;
+}
+
+.ipt_greyline_shortened {
+  background-color: rgb(128,128,128);
+  width:95%;
+  height:2px;
+}
 
 .ipt_redline {
   background-color: rgb(163, 25, 91);
@@ -163,32 +173,22 @@ h6, .ipt_green {
   height:2px;
 }
 
-#u246-2 {
+.ipt-medium-small-red-text {
   color: rgb(163, 25, 91);
   font-family: '__ITC Lubalin Graph_5';
   font-size: 13px;
   font-weight: normal;
   height: 16px;
   line-height: 16px;
-  margin-left: 18px;
-  margin-top: 15px;
-  text-align: left;
-  /*width: 315px;*/
-  word-wrap: break-word;
 }
 
-#u246-4 {
+.ipt-small-red-text {
   color: rgb(163, 25, 91);
   font-family: '__ITC Lubalin Graph_5';
   font-size: 10px;
   font-weight: normal;
   height: 12px;
   line-height: 12px;
-  margin-bottom: 0px;
-  margin-left: 18px;
-  text-align: left;
-  /*width: 315px; */
-  word-wrap: break-word;
 }
 
 .site-info {
@@ -197,59 +197,14 @@ h6, .ipt_green {
   margin-right: 44px;
 }
 
-
-.rTable {
-  display: block;
-  width: 100 % ;
+.generic-info {
+  margin-left: 44px;
+  margin-right: 44px;
 }
-
-.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
-  clear: both;
-}
-
-
-.rTableCell, .rTableHead {
-  border: 0px;  
-  float: left;     
-  /*height: 140px;  */   
-  overflow: hidden;  
-  padding-top:0px;
-  padding-top:0px;   
-  padding-left: 3%; 
-  padding-right: 0%;    
-  width: 30%; 
-} 
 
 .ipt_decorated_left {
   border-left: 1px solid rgb(135, 135, 134);    
 }
-
-.rTable:after 
-{     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0; }
-
-
-.tinyTable {
-  display: block;
-  width: 100 % ;
-}
-
-.tinyTableHeading, .tinyTableBody, .tinyTableFoot, .tinyTableRow {
-  clear: both;
-}
-
-.tinyTableCell, .tinyTableHead {
-  border: 0px;   
-  float: left;     
-  /*height: 88px; */    
-  overflow: hidden;     
-  padding-left: 4%;
-  padding-right: 0%;     
-  width: 46%; 
-} 
-
-.tinyTable:after 
-{     visibility: hidden;     display: block;     font-size: 0;     content: " ";     clear: both;     height: 0; }
-
 
 .ipt_text_11_135_15 {
   color: rgb(135, 135, 134);
@@ -374,77 +329,36 @@ h6, .ipt_green {
   border-top: 1px solid #eee; 
 }
 
-/* Force table to not be like tables anymore */
-  .no-more-tables table, 
-  .no-more-tables thead, 
-  .no-more-tables tbody, 
-  .no-more-tables th, 
-  .no-more-tables td, 
-  .no-more-tables tr { 
-    display: block; 
-  }
- 
-  /* Hide table headers (but not display: none;, for accessibility) */
-  .no-more-tables thead tr { 
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
- 
-  .no-more-tables tr { 
-    /*border: 1px solid #ccc; */
-     border: none;
-  }
- 
-  .no-more-tables td { 
-    /* Behave  like a "row" */
-    border: none;
-    /*border-top: 1px solid #eee; */
-    position: relative;
-    /*padding-left: 50%; */
-    white-space: normal;
-    text-align:left;
-  }
- 
-  .no-more-tables td:before { 
-    /* Now like a table header */
-    position: absolute;
-    /* Top/left values mimic padding */
-    top: 6px;
-    left: 6px;
-    width: 45%; 
-    padding-right: 10px; 
-    white-space: nowrap;
-    text-align:left;
-    font-weight: bold;
-  }
- 
-  /*
-  Label the data
-  */
-  .no-more-tables td:before { content: attr(data-title); }
-}
-
 /* In the rev slider */
 
-h2 > .slider-text  > small {
-color: rgb(157, 156, 156);
+.revslider-container h2.slider-text {
   font-family: '__ITC Lubalin Graph_5';
+  color: #fff;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-bottom: 15px;
+  font-weight: inherit;
+  margin: 0;
   font-size: 25px;
-  font-weight: normal;
   line-height: 31px;
-  text-align: left;
-  word-wrap: break-word;
 }
 
-h2 > .slide-title {
-  color: rgb(255, 255, 255); /* was 163, 25, 91); */
-  font-family: '__ITC Lubalin Graph_5';
-  font-size: 25px;
-  font-weight: normal;
-  line-height: 31px;
-  text-align: left;
-  word-wrap: break-word;
+.revslider-container h2.slider-text .title {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.revslider-container h2.slider-text small {
+  display: block;
+  font-weight: inherit;
+  font-size: 24px;
+  line-height: 1.3em;
+  padding: 8px 0;
+}
+.revslider-container.element-dark .slider-text {
+  text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+  color: #000;
 }
 
 .tp-bannertimer {
