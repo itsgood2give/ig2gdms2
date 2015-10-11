@@ -18,7 +18,7 @@
       <div class="ipt_text_11_135_17">
          <p>It's Good 2 Give&#8482; is a registered charity no. Sc041416. </p>
          <p>Company limited by guarantee no. SC376977</p>
-        <a class="ipt_a_135" href="#">Terms &amp; Conditions</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a  class="ipt_a_135" href="#">Privacy &amp; Cookies Policy</a>      
+        <a class="ipt_a_135" href="/terms-and-conditions">Terms &amp; Conditions</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a  class="ipt_a_135" href="/privacy-and-cookies-policy">Privacy &amp; Cookies Policy</a>      
       </div>
     </div>
 
