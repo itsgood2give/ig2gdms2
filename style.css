@@ -289,46 +289,6 @@ h6, .ipt_green {
 }
 
 
-.ipt_padded_table_cell {
-  padding-top:0px;
-  padding-top:0px;   
-  padding-left: 3%; 
-  padding-right: 0%; 
-}
-
-.ipt_padded_table_cell_right {
-  padding-top:0px;
-  padding-top:0px;   
-  padding-right: 3%; 
-  padding-left: 0%; 
-}
-
-.ipt_padded_both {
-  padding-top:0px;
-  padding-top:0px;   
-  padding-right: 3%; 
-  padding-left: 3%; 
-}
-
-.ipt_ruled_above {
-
-}
-
-.ipt_ruled_left {
-  border-left: 1px solid #eee; 
-}
-
-/* http://bootsnipp.com/snippets/featured/no-more-tables-respsonsive-table */
-@media only screen and (max-width: 800px) {
-
-.ipt_ruled_left {
-
-}
-
-.ipt_ruled_above {
-  border-top: 1px solid #eee; 
-}
-
 /* In the rev slider */
 
 .revslider-container h2.slider-text {
@@ -343,11 +303,13 @@ h6, .ipt_green {
   margin: 0;
   font-size: 25px;
   line-height: 31px;
+  text-shadow:none;
 }
 
 .revslider-container h2.slider-text .title {
   display: inline-block;
   margin-bottom: 5px;
+  text-shadow: none;
 }
 .revslider-container h2.slider-text small {
   display: block;
@@ -355,9 +317,10 @@ h6, .ipt_green {
   font-size: 24px;
   line-height: 1.3em;
   padding: 8px 0;
+  text-shadow: none;
 }
 .revslider-container.element-dark .slider-text {
-  text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+  text-shadow: none;
   color: #000;
 }
 
@@ -367,6 +330,71 @@ h6, .ipt_green {
 
 body .pl-mobile-menu {
   background-color: #C5A47E;
+}
+
+h2.slider-text {
+    text-shadow: none;
+}
+
+h2.slider-text > small {
+    text-shadow: none;
+}
+
+h2.slider-text > slide-title {
+    text-shadow: none;
+}
+
+
+.section-navi .navi-container {
+  height: 83px;
+  padding: 7px;
+}
+
+.revslider-container .slider-content {
+  text-shadow: none;
+}
+
+/* ipaterso: social media icons per excellent post at
+http://bradsknutson.com/blog/css3-rollover-social-media-icons/
+
+<div class="twitter-hover social-slide"></div>
+*/
+
+
+.twitter-hover {
+    background-image: url('/wp-content/uploads/2015/10/twitter-hover.png');
+}
+.facebook-hover {
+    background-image: url('/wp-content/uploads/2015/10/facebook-hover.png');
+}
+
+.google-hover {
+    background-image: url('/wp-content/uploads/2015/10/google-hover.png');
+}
+
+.pinterest-hover {
+    background-image: url('/wp-content/uploads/2015/10/pinterest-hover.png');
+}
+
+.instagram-hover {
+    background-image: url('/wp-content/uploads/2015/10/instagram-hover.png');
+}
+
+.social-slide {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: right;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }
 
 
